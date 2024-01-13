@@ -2,10 +2,10 @@
 import Image from 'next/image'
 import { useEffect, useState } from 'react';
 
-export default function Home() {
-  const a:string = "ŧ‹”ŧ‹”( ‘ч’ )ŧ‹”ŧ‹”";
-  const b:string = "ෆ⸒⸒⸜( ˶'ᵕ'˶)⸝";
-  const c:string = "=͟͟͞͞( 'ω' =͟͟͞͞( 'ω' =͟͟͞͞( 'ω' =͟͟͞͞( 'ω'";
+function page2() {
+  const a:string = "(  ･᷄ᯅ･᷅ )";
+  const b:string = "(ᯣᴗᯣ)";
+  const c:string = "💪( ¨̮ 💪)";
 
   return (
     <main className='min-h-screen flex flex-col items-center justify-center bg-slate-200'>
@@ -15,7 +15,7 @@ export default function Home() {
       </section>
 
       <section className="h-96 w-80 bg-gray-200/30 backdrop-blur-lg rounded-md border border-gray-200/30 shadow-lg">
-      <a href="http://localhost:3000/pages">{a}</a>
+      <a href="http://localhost:3000/">{a}</a>
       <p>{c}</p>
       </section>
       
@@ -24,3 +24,4 @@ export default function Home() {
   )
 }
 
+export default page2;
