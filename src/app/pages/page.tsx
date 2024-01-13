@@ -15,7 +15,7 @@ function page2() {
       </section>
 
       <section className="h-96 w-80 bg-gray-200/30 backdrop-blur-lg rounded-md border border-gray-200/30 shadow-lg">
-      <a href="http://localhost:3000/">{a}</a>
+      <a href="https://my-app-tau-liart.vercel.app/">{a}</a>
       <p>{c}</p>
       </section>
       
