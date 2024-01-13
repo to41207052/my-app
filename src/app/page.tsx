@@ -1,8 +1,9 @@
 
-import Image from 'next/image'
-import { useEffect, useState } from 'react';
+import useSWR from 'swr';
+import Head from 'next/head';
 
 export default function Home() {
+  // const {data: posts} = useSWR('https://misaku-s.hungry.jp/port1/wp-json/wp/v2/posts');
   const pageTitle:string = "我々のページへようこそ";
   const articleTitle: string = "記事のタイトル";
   const articleImage: any = "画像はいめーじ";
