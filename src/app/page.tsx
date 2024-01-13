@@ -1,13 +1,11 @@
 
-import useSWR from 'swr';
-import Head from 'next/head';
 
 export default function Home() {
-  // const {data: posts} = useSWR('https://misaku-s.hungry.jp/port1/wp-json/wp/v2/posts');
+ 
   const pageTitle:string = "我々のページへようこそ";
-  const articleTitle: string = "記事のタイトル";
+  const articleTitle: string = "user name";
   const articleImage: any = "画像はいめーじ";
-  const articleText: string = "今日はとってもいい天気..."
+  const articleText: string = "私がいちばんの天才"
 
   return (
     <main className='min-h-screen flex flex-col items-center justify-center bg-slate-200'>
@@ -15,7 +13,7 @@ export default function Home() {
         {pageTitle}
       </section>
 
-      <div className='flex'>
+      <div className='md:flex md:flex-row md:bg-transparent sm:flex sm:flex-col'>
 
         <section className="m-2 flex flex-col items-center p-5 h-96 w-80 bg-gray-200/30 backdrop-blur-lg rounded-md border border-gray-200/30 shadow-lg ">
         <div className=''><a href="/sample">{articleTitle}</a></div>
@@ -46,5 +44,4 @@ export default function Home() {
       
     </main>
   )
-}
-
+  }
