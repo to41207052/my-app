@@ -4,12 +4,12 @@ import { useEffect, useState } from 'react';
 
 export default function Home() {
   const a:string = "ŧ‹”ŧ‹”( ‘ч’ )ŧ‹”ŧ‹”";
-
+  const b:string = "ෆ⸒⸒⸜( ˶'ᵕ'˶)⸝";
 
   return (
     <main className='min-h-screen flex flex-col items-center justify-center bg-slate-200'>
       <section className='font-bold text-4xl m-4'>
-        ෆ⸒⸒⸜( ˶'ᵕ'˶)⸝
+        {b}
      
       </section>
 
