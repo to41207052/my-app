@@ -1,6 +1,4 @@
-"use client"
 
-import { useEffect, useState } from "react";
 import catchData from "../pages/api/catchData";
 
 
