@@ -1,10 +1,9 @@
-
-import Image from 'next/image'
-import { useEffect, useState } from 'react';
+import catchData from "../pages/api/catchData";
 
 function page2() {
   const blogTitle: string = "タイトル"
   const blogText: string = "今日はいい天気だったぞ〜でも、このページを見た貴様ら全員雨だったことになりましたああああああああああああ"
+
 
   return (
     <main className='min-h-screen flex flex-col items-center justify-center bg-slate-200'>
