@@ -23,7 +23,7 @@ export default function Home() {
       <div className='md:flex md:flex-row md:bg-transparent sm:flex sm:flex-col'>
 
         <section className="m-2 flex flex-col items-center p-5 h-96 w-80 bg-gray-200/30 backdrop-blur-lg rounded-md border border-gray-200/30 shadow-lg ">
-        <div className=''><a href="/sample">here{a}</a></div>
+        <div className=''><a href="/sample">This here {a}</a></div>
         <div className='p-20 w-fell h-full items-center bg-gray-400 rounded-md'><a href="/sample">{articleImage}</a></div>
         <div ><a href="/sample">{articleText}</a></div>
         </section>
