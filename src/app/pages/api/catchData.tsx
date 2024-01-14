@@ -1,10 +1,13 @@
 
 import axios from "axios";
 
-const catchData= async() =>{
+const catchData = async() =>{
   const staticPostList = await PostService.getList();
-  console.log(staticPostList[0].date)
-  return (staticPostList[0].date)
+  return {
+    date: staticPostList[0].date, 
+    title: staticPostList[0].title,
+    content: staticPostList[0].content
+    }
 }
 
 
@@ -46,10 +49,8 @@ const repository = axios.create({
   baseURL: 'https://misaku-s.hungry.jp/port1/graphql',
     headers: {
         'Content-Type': 'application/json'
-    }
-    
+    }    
 })
-
 
 const Repository = (query: string, { variables }: Record<string, any> = {}) => {
   const body = {
@@ -70,8 +71,5 @@ interface nickname {
   date: string,
   content: string
 }
-
-
-
 
 export default catchData;
