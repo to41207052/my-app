@@ -34,3 +34,17 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+
+
+## ありがとう、これは制作途中段階のブログのフロントサイド,NEXT.js
+vercelでデプロイしてあります。　
+https://my-app-two-orcin-62.vercel.app/
+ページを開くと３つの四角形の表示、左の四角の "This here 2024-01-14T21:40:45"ここがリンクになっています（ブログ記事に飛びます）
+
+このブログ記事は wordpress GrahQLを使用して持ってきたものですが、正しく表示することを現在の目標です。
+それらをどこで学ぶべきか迷っています。
+
+
